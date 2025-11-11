@@ -14,9 +14,9 @@ def create_plot(x, y):
     plt.grid(True)
     plt.show()
 
-if __name__ == "__main__":
-    start = int(input("Введите начало диапазона: "))
-    end = int(input("Введите конец диапазона: "))
+
+start = int(input("Введите начало диапазона: "))
+end = int(input("Введите конец диапазона: "))
     
-    x, y = generate_plot_data(start, end)
-    create_plot(x, y)
+x, y = generate_plot_data(start, end)
+create_plot(x, y)
